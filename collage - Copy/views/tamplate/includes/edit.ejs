@@ -1,0 +1,41 @@
+
+<section class="home navigation canada">
+    <div class="center-div aboutus">
+        <h1 class="header">Contact Us</h1>
+    </div>
+</section>
+<section class="form-data">
+<div class="form-contant">
+    <div class="form-related">
+        <p class="request">
+            REQUEST FREE COMMUNICATION
+        </p>
+        <h1 class="addto-card">
+            Thank for your interest. <br>
+            Registration For Admission?
+        </h1>
+    </div>
+    <form method="post" action="/show/<%= updatechat.id %>?_method=PUT">
+    <div class="input-data">
+             <input type="name" placeholder="<%= updatechat.fname %>" name="fname">
+    </div>
+    <div class="input-data">
+             <input type="name" placeholder="<%= updatechat.lname %>" name="lname">
+    </div>
+    <div class="input-data">
+        <input type="email" placeholder="<%= updatechat.email %>" name="email">
+    </div>
+    <div class="input-data">
+             <input type="number" placeholder="<%= updatechat.phone %>" name="phone">
+    </div>
+    <div class="input-data">
+        <textarea name="description" id="name" cols="30" rows="10" placeholder="<%= updatechat.description %>"></textarea>
+    </div>
+    <div class="input-data">
+        <button class="input-btn" type="submit">Updates</button>
+    </div>
+</form>
+</div>
+</div>
+</section>
+
